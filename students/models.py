@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class students(models.Model):
+class Students(models.Model):
     name=models.CharField()
     email=models.EmailField()
     age=models.IntegerField()
